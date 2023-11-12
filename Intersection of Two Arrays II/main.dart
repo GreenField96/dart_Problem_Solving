@@ -1,3 +1,18 @@
+/*
+*solution by Reshape the Matrix
+class Solution {
+  List<int> intersect(List<int> nums1, List<int> nums2) {
+      List<int> returnList = [];
+      for (int num2 in nums2) {
+          if (nums1.contains(num2)) {
+              returnList.add(num2);
+              nums1.remove(num2);
+          }
+      }
+      return returnList;
+  }
+*/
+
 void main() {
   var s1 = Solution();
   List<int> num1 = [2, 2];
